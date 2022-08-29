@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>max</title>
+</head>
+<body>
+<script>
+    let arr =[];
+    function maxindex3(arr1){
+        let result = [];
+        for (let i = 0; i< arr1.length-1;i++){
+            for (let j = i+1; j<arr1.length;j++){
+                if (arr1[j]>arr1[i]){
+                    let x = arr1[i];
+                    let arr1[i] = arr1[j]
+                    let arr1[j] = x
+
+                }
+            }
+        }
+  }
+
+</script>
+</body>
+</html>
